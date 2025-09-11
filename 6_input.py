@@ -17,5 +17,5 @@ edad_num = int(edad_str)
 # Realizar una operación matemática
 print(f'El próximo año tendrás {edad_num + 1} años.')
 
-edad = int(input("Introduce tu edad: "))
+edad = (input("Introduce tu edad: "))
 print(f"El próximo año tendrás {edad + 1} años.")
