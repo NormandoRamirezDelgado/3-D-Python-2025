@@ -76,3 +76,14 @@ longitud = len(mi_lista) # Obtiene la longitud de la lista
 for i in range(longitud):
     print(f"Índice {i}: {mi_lista[i]}")
 
+
+print('')
+print("Hola", end='')
+print("Hola", end=", ")
+print("Hola", end=", ")
+print("Hola", end=", ")
+print("Hola", end=", ")
+print("Hola")
+
+
+
