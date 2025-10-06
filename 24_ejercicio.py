@@ -4,16 +4,16 @@ numeros = []
 for i in range(10):
     numeros.append(int(input('Número: ')))
 promedio = sum(numeros)/10
-mayor = []
-menor = []
-igual = []
+mayor = 0
+menor = 0
+igual = 0
 for numero in numeros:
     if numero > promedio:
-        mayor.append(numero)
+        mayor
     if numero < promedio:
-        menor.append(numero)
+        menor += 1
     if numero == promedio:
-        igual.append(numero)
+        igual += 1
 print(f'Fueron {mayor} números Mayores que el Promedio')
 print(f'Fueron {menor} números Menores que el Promedio')
 print(f'Fueron {igual} números Iguales que el Promedio')
