@@ -93,3 +93,6 @@ tupla_modificada = tuple(mi_lista)
 
 print(f"Tupla modificada: {tupla_modificada}")
 # Salida: Tupla modificada: (20, 35, 50, 60)
+
+mixta = [1, 2, (3, 4, 5), 3]
+print(mixta)
