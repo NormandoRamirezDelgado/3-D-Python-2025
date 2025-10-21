@@ -27,7 +27,7 @@ mi_conjunto.remove(2)
 print(mi_conjunto)  # Salida: {1, 3, 4}
 
 # Elimina un elemento del conjunto. Si el elemento no existe, no se produce ningún error.
-mi_conjunto.discard(5) # No genera error
+mi_conjunto.discard(5,) # No genera error
 print(mi_conjunto)  # Salida: {1, 3, 4}
 
 # Elimina y devuelve un elemento arbitrario del conjunto.
@@ -56,5 +56,3 @@ print('')
 numeros = {1, 2, 3, 4, 5}
 numeros.clear()
 print(numeros)
-
-
